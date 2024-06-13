@@ -42,7 +42,7 @@ public class S3ConnectionFactory {
 
     }
 
-    public void closeConnetion(AmazonS3EncryptionV2 s3Client){
+    public void closeConnection(AmazonS3EncryptionV2 s3Client){
         if(s3Client != null){
             s3Client.shutdown();
         }
