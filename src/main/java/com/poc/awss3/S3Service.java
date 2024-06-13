@@ -14,8 +14,8 @@ public class S3Service {
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
         // Reading property file.
         S3Service obj = new S3Service();
-        String accessKey = "AKIA2C62N7ITIYD3HOGU";
-        String secretKey = "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";
+        String accessKey = "";
+        String secretKey = "";
         String region = "ap-south-1";
         String encryptionAuthKey="my-encryption-key";
         String endPointUrl="https://s3.amazonaws.com/";
